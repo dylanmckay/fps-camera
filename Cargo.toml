@@ -1,0 +1,9 @@
+[package]
+name = "camera"
+version = "0.1.0"
+authors = ["Dylan McKay <me@dylanmckay.io>"]
+
+[dependencies]
+cgmath = "0.15"
+bitflags = "1.0"
+
