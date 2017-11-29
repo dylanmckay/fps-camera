@@ -1,7 +1,8 @@
 #[macro_use] extern crate bitflags;
-extern crate cgmath;
+extern crate cam;
+extern crate vecmath;
 
-pub use self::first_person::Camera;
+pub use cam::*;
 
-mod first_person;
+pub mod first_person;
 
