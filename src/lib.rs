@@ -4,5 +4,7 @@ extern crate vecmath;
 
 pub use cam::*;
 
-pub mod first_person;
+pub use self::first_person::*;
+
+mod first_person;
 
