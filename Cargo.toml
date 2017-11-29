@@ -1,7 +1,16 @@
 [package]
 name = "fps-camera"
 version = "0.1.0"
-authors = ["Dylan McKay <me@dylanmckay.io>"]
+authors = ["Dylan McKay <me@dylanmckay.io>",
+           "bvssvni <bvssvni@gmail.com>",
+           "stjahns <s.t.jahns@gmail.com>"]
+
+description = "An FPS camera library"
+license = "MIT"
+documentation = "https://docs.rs/fps-camera"
+repository = "https://github.com/dylanmckay/fps-camera"
+
+keywords = ["cast", "chromecast"]
 
 [dependencies]
 bitflags = "1.0"
