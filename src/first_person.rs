@@ -167,8 +167,8 @@ impl<T> FirstPerson<T>
             }
         };
 
-        set_axis(&mut dz, Actions::MOVE_FORWARD, Actions::MOVE_BACKWARD);
-        set_axis(&mut dx, Actions::STRAFE_LEFT, Actions::STRAFE_RIGHT);
+        set_axis(&mut dx, Actions::MOVE_BACKWARD, Actions::MOVE_FORWARD);
+        set_axis(&mut dz, Actions::STRAFE_LEFT, Actions::STRAFE_RIGHT);
         set_axis(&mut dy, Actions::FLY_UP, Actions::FLY_DOWN);
 
         (dx,dy,dz)
